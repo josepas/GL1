@@ -16,7 +16,7 @@ int main(int argc, char const *argv[]) {
 
 	if (argc != 5) {
 
-		printf("llamada hecha incorrectamente.\n");
+		printf("llamada hecha incorrectamente, porque eres una perra.\n");
 		printf("cript_p [-c/-d] <NumeroHijos> <archivoEntrada> <archivoSalida> \n");
 		return 0;
 	}
@@ -77,7 +77,7 @@ int main(int argc, char const *argv[]) {
 	fprintf(archS, "\n");
 	fclose(archS);
 	TF = TomarTiempo();
-	printf("El Encriptado/Decriptado con hilos tardo: %i\n", TF-TI);
+	printf("Te faltan cromosomas: %i\n", TF-TI);
 
 	free(resultado);
 	free(hilosI);
