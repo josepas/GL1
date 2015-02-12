@@ -15,7 +15,7 @@ int main(int argc, char const *argv[]) {
 	long* nc;		//Numero de caracteres a procesar por hijo;
 
 	if (argc != 5) {
-		printf("llamada hecha incorrectamente.\n");
+		printf("llamada hecha incorrectamente. no puede ser, fue echa correctamente...!\n");
 		printf("cript_p [-c/-d] <NumeroHijos> <archivoEntrada> <archivoSalida> \n");
 		return 0;
 	}
